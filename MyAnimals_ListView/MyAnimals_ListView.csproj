@@ -17,5 +17,38 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Images\" />
+    <Folder Include="Converters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\bird.png" />
+    <None Remove="Images\butterfly.png" />
+    <None Remove="Images\cat.png" />
+    <None Remove="Images\chicken.png" />
+    <None Remove="Images\crane.png" />
+    <None Remove="Images\elephant.png" />
+    <None Remove="Images\fish.png" />
+    <None Remove="Images\fox.png" />
+    <None Remove="Images\giraffe.png" />
+    <None Remove="Images\monkey.png" />
+    <None Remove="Images\mouse.png" />
+    <None Remove="Images\rabbit.png" />
+    <None Remove="Images\rooster.png" />
+    <None Remove="Images\whale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\bird.png" />
+    <EmbeddedResource Include="Images\butterfly.png" />
+    <EmbeddedResource Include="Images\cat.png" />
+    <EmbeddedResource Include="Images\chicken.png" />
+    <EmbeddedResource Include="Images\crane.png" />
+    <EmbeddedResource Include="Images\elephant.png" />
+    <EmbeddedResource Include="Images\fish.png" />
+    <EmbeddedResource Include="Images\fox.png" />
+    <EmbeddedResource Include="Images\giraffe.png" />
+    <EmbeddedResource Include="Images\monkey.png" />
+    <EmbeddedResource Include="Images\mouse.png" />
+    <EmbeddedResource Include="Images\rabbit.png" />
+    <EmbeddedResource Include="Images\rooster.png" />
+    <EmbeddedResource Include="Images\whale.png" />
   </ItemGroup>
 </Project>

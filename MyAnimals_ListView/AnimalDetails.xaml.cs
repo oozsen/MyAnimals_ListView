@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using MyAnimals_ListView.Data;
 using Xamarin.Forms;
 
 namespace MyAnimals_ListView
 {
     public partial class AnimalDetails : ContentPage
     {
-        public AnimalDetails()
+        public AnimalDetails(Animal animal)
         {
-            InitializeComponent();
+            BindingContext = animal;
+            InitializeComponent();            
         }
     }
 }

@@ -26,5 +26,10 @@ namespace MyAnimals_ListView
         [JsonProperty("Longitude")]
         public double Longitude { get; set; }
 
+        public override string ToString()
+        {
+            return Name;
+        }
+
     }
 }

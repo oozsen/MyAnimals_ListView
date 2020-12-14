@@ -4,7 +4,7 @@
              x:Class="MyAnimals_ListView.StarterPage">
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="listView Samples" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="ListView Samples" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Button Text="Basic ListView Sample" Clicked="Basic_Open" />
         <Button Text="Detailed ListView Sample" Clicked="Detailed_Open" />

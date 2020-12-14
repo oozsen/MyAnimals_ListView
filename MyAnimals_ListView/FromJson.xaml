@@ -22,10 +22,10 @@
             <!--<CollectionView ItemsSource="{Binding Monkeys}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout Orientation="Horizontal">
+                       <StackLayout Orientation="Horizontal">
                             <Image Source="{Binding Image}"/>
                             <Label Text="{Binding Name}"/>
-                        </StackLayout>
+                       </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>-->

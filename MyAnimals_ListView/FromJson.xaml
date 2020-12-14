@@ -7,8 +7,28 @@
     <StackLayout>
         <ScrollView>
             <ListView ItemsSource="{Binding Monkeys}">
-
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell Text="{Binding Name}"
+                                   Detail="{Binding Details}"
+                                   DetailColor="Gray"
+                                   ImageSource="{Binding Image}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
             </ListView>
+
+            <!-- ListView yerine CollectionView kullanabilirsiniz-->
+
+            <!--<CollectionView ItemsSource="{Binding Monkeys}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding Image}"/>
+                            <Label Text="{Binding Name}"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>-->
         </ScrollView>
     </StackLayout>
 </ContentPage>

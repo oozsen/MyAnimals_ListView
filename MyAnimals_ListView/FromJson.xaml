@@ -7,6 +7,12 @@
     <StackLayout>
         <ScrollView>
             <ListView ItemsSource="{Binding Monkeys}">
+                <ListView.Header>
+                    <ContentView BackgroundColor="Gray">
+                        <Label HorizontalOptions="Center" FontSize="Large" TextColor="White"
+                               Text="Top o the list"/>
+                    </ContentView>
+                </ListView.Header>
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ImageCell Text="{Binding Name}"
@@ -15,6 +21,12 @@
                                    ImageSource="{Binding Image}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
+                <ListView.Footer>
+                    <ContentView BackgroundColor="Gray">
+                        <Label HorizontalOptions="Center" FontSize="Large" TextColor="White"
+                               Text="End of the list"/>
+                    </ContentView>
+                </ListView.Footer>
             </ListView>
 
             <!-- ListView yerine CollectionView kullanabilirsiniz-->

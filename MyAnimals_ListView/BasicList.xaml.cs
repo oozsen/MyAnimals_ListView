@@ -10,6 +10,17 @@ namespace MyAnimals_ListView
         public BasicList()
         {
             InitializeComponent();
+
+            List<String> sampleList = new List<string>
+            {
+                "Student ID",
+                "Name",
+                "Surname",
+                "Phone",
+                "e-mail"
+            };
+
+            MyBasicList.ItemsSource = sampleList;
         }
     }
 }
